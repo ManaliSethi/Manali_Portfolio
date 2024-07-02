@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+// import leaf from "../../Assets/Projects/leaf.png";
+// import emotion from "../../Assets/Projects/emotion.png";
+// import editor from "../../Assets/Projects/codeEditor.png";
 import MemberShipApp from "../../Assets/Projects/membership.png";
-import suicide from "../../Assets/Projects/suicide.png";
+// import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/jc_logo_v2.svg";
 
 function Projects() {
