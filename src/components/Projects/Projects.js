@@ -6,7 +6,7 @@ import Particle from "../Particle";
 import MemberShipApp from "../../Assets/Projects/membership.png";
 
 import bitsOfCode from "../../Assets/Projects/jc_logo_v2.svg";
-
+import bharatPetroleum from "../../Assets/Projects/Bharatgas_Logo.svg"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -40,6 +40,16 @@ function Projects() {
               description="Excited to share my recent work on the JioCinema streaming platform! I developed robust profile management features, implemented a secure OTP module for user authentication, and integrated LaunchDarkly for efficient feature flag and configuration management on the backend. This project has been a fantastic opportunity to enhance user engagement and platform reliability. Stay tuned for more updates!
 "
               demoLink="https://www.jiocinema.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bharatPetroleum}
+              isBlog={false}
+              title="Bharat Petroleum"
+              description=" Contributed to the development of the Hello BPCL web portal, enabling seamless gas cylinder booking and e-KYC verification for different user personas, including customers, distributors, staff, and mechanics. Implemented OTP verification and user authentication features to enhance security and user experience on the platform.Stay tuned for more updates!"
+              demoLink="https://qa.lpgnxt.bpcl.in/"
             />
           </Col>
 
